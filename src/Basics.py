@@ -1,4 +1,3 @@
-from User import User
 #Variables
 msg = 'Render props'
 boolean = True
@@ -23,9 +22,6 @@ for name in names:
 def sum(a,b):
     return a+b
 print(sum(5,8))
-#Objects and inputs
-user = User('ALEJO','12345',18,'Sistemas')
-user.showUser()
 #Pure Functions: Thse that always return the same result dont use global variables
 def squared(number):
     return number * number
